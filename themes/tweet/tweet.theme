@@ -1,0 +1,13 @@
+<?php 
+
+function tweet_preprocess_block(&$variables) {
+  //add layout class to featured blocks
+  $featured = array('block-tweet-customblockone','block-tweet-customblocktwo','block-tweet-customblockthree');
+  
+  $id = $variables['attributes']['id'];
+  
+  //If block id matches list - add class
+  if(in_array($id, $featured)) {
+    $variables['attributes']['class'][] = 'col-md-4';
+  }
+}

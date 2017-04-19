@@ -1,0 +1,6 @@
+messages:
+  version: VERSION
+  css: 
+    theme: 
+        css/messages.css: {}
+        
