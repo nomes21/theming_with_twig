@@ -781,3 +781,4 @@ $config_directories['sync'] = 'sites/default/files/config_NV8neSb2foBU4T47XDUxQl
 if (file_exists(__DIR__ . '/settings.local.php')) {
    include __DIR__ . '/settings.local.php';
 }
+$settings['update_free_access'] = false;
